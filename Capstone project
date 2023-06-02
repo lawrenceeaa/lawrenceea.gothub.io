@@ -1,9 +1,14 @@
+title: "Google data analytics capstone: Cyclistic dataset"
+author: "Lawrence Ea"
+date: "2023-05-26"
+output: 
+  html_document: default
+  pdf_document: default
+  
 #Cyclistic is a bike-share initiative that stands out with its extensive fleet of 5,824 bicycles and 692 docking stations. 
 #What sets Cyclistic apart is its commitment to inclusivity by offering a variety of bike options, including reclining bikes, hand tricycles, and cargo bikes. 
 #This ensures that people with disabilities and those who cannot ride a standard two-wheeled bike can also participate in bike-sharing. 
 #While the majority of riders prefer traditional bikes, approximately 8% utilize the assistive options. While many users ride for leisure, a significant portion, around 30%, rely on Cyclistic bikes for their daily commute to work.
-
-
 
 
 ##Questions to solve
@@ -154,8 +159,40 @@ is.factor(all_trips_v2$tripduration)
 all_trips_v2$tripduration <- as.numeric(as.character(all_trips_v2$tripduration))
 is.numeric(all_trips_v2$tripduration)
 
-#ANALYZE (Summary of analysis)
-### 4.Analysis on ride length (results)
+# ANALYZE (Summary of analysis)
+
+###
+Total rides: 3,119,296
+
+Average ride length: 24.11 minutes
+
+Busiest time for members and casual: 5pm
+
+Busiest month: August
+
+Busiest Day: Wednesday
+
+###Comparing Member vs. Casual
+
+#Average ride length 
+  *Member: 25.31 minutes
+  *Casual: 106.97 minutes
+#Total rides
+  *Member: 2,411,956 (77.32%)
+  *Casual:  707,340 (22.68%)
+
+#Busiest day
+  *Member: Wednesday
+  *Casual: Saturday
+#Busiest month
+  *Member: August
+  *Casual: August
+#Ride legnth comparison
+  *Member: consistent users thru the weekdays
+  *Casual: Higher demand on weekends
+
+
+### Analysis on ride length (results)
 #Mean =1447.354 seconds
 Median = 706 seconds
 min = 61 seconds
@@ -269,5 +306,19 @@ all_trips_nonull %>%
   theme(legend.position = "bottom")
 
 ```
+##Findings:
+-Almost 2.5 million of users are members while approximately 750,000 users are casual. This suggest that majority of customer base consist of members who are likely recurring users of the bike sharing service.
+
+-Members took more than 70% of the rides for 2019. On the other hand, while casual riders has longer ride length average throughout the week.
+
+-This suggest that casual riders use the service for leisure and recreation.
+
+-Members utilize the bikeshare service for daily transportation
+
+-Busiest days for members are weekdays while on the weekends casual members exceed the 100k mark on number of rides.
+
+-The bike demand for casual riders started to pick up at around 9 am and peak at 5pm which is identical with the peak demand for members.
+
+
 #ACT (Recommendations)
 
