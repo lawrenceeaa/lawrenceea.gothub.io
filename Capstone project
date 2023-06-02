@@ -177,6 +177,7 @@ Busiest Day: Wednesday
 #Average ride length 
   *Member: 25.31 minutes
   *Casual: 106.97 minutes
+  
 #Total rides
   *Member: 2,411,956 (77.32%)
   *Casual:  707,340 (22.68%)
@@ -184,9 +185,11 @@ Busiest Day: Wednesday
 #Busiest day
   *Member: Wednesday
   *Casual: Saturday
+  
 #Busiest month
   *Member: August
   *Casual: August
+  
 #Ride legnth comparison
   *Member: consistent users thru the weekdays
   *Casual: Higher demand on weekends
@@ -321,4 +324,14 @@ all_trips_nonull %>%
 
 
 #ACT (Recommendations)
+-During the period from July to October, there is a significant number of casual riders. Analysis of the data reveals that on weekdays, the number of casual riders ranges from 80,000 to 90,000 on a single day. This presents a potential impact on profits if these riders were to become members.
 
+-Consider monthly membership option with more flexible pricing would be ideal, to cater to the needs of locals, tourists, and business travelers.
+
+-Regular weekday casual users who use the service between July and October should be encouraged to consider signing up for a monthly membership.
+
+-Utilize social media to promote activities and convenience of the bike-sharing service, Engaging content showcasing exciting bike-related activities and highlighting the ease of returning bikes to different docking stations across the city would be effective.
+
+-Emphasize the environmental(carbon emissions), Financial(Cheaper than driving) and Health benefits, Cyclistic can encourage local commuters who currently drive to work to switch to biking during the summer months. This can be achieved by offering attractive incentives through the monthly pass option.
+
+-Considering monthly passes can solve the hurdles of covnerting casual riders to members.
