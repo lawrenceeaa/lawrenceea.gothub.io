@@ -5,16 +5,18 @@ output:
   html_document: default
   pdf_document: default
   
-#Cyclistic is a bike-share initiative that stands out with its extensive fleet of 5,824 bicycles and 692 docking stations. 
-#What sets Cyclistic apart is its commitment to inclusivity by offering a variety of bike options, including reclining bikes, hand tricycles, and cargo bikes. 
-#This ensures that people with disabilities and those who cannot ride a standard two-wheeled bike can also participate in bike-sharing. 
-#While the majority of riders prefer traditional bikes, approximately 8% utilize the assistive options. While many users ride for leisure, a significant portion, around 30%, rely on Cyclistic bikes for their daily commute to work.
+#Background
+Cyclistic is a bike-share initiative that stands out with its extensive fleet of 5,824 bicycles and 692 docking stations. 
+What sets Cyclistic apart is its commitment to inclusivity by offering a variety of bike options, including reclining bikes, hand tricycles, and cargo bikes. 
+
+This ensures that people with disabilities and those who cannot ride a standard two-wheeled bike can also participate in bike-sharing. 
+While the majority of riders prefer traditional bikes, approximately 8% utilize the assistive options. While many users ride for leisure, a significant portion, around 30%, rely on Cyclistic bikes for their daily commute to work.
 
 
 ##Questions to solve
-### How does casual and members use cyclistic bikes differently?
-###How to convert casual riders to annual members?
-###How can cyclistic use digital media to influence casual rider's decision to become members?
+How does casual and members use cyclistic bikes differently?
+How to convert casual riders to annual members?
+How can cyclistic use digital media to influence casual rider's decision to become members?
 
 #PREPARE
 ##I downloaded the 2019 Cyclistic dataset split in 4 Quarters
