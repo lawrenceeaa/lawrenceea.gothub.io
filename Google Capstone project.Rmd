@@ -176,7 +176,7 @@ Busiest Day: Wednesday
 
 ###Comparing Member vs. Casual
 
-#Average ride length 
+#Average ride length (It is evident based on the average ride length that members and casual use the bike-sharing service for different purpose)
   *Member: 25.31 minutes
   *Casual: 106.97 minutes
   
